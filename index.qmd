@@ -1,0 +1,118 @@
+---
+title: "Ludovico Venturi"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
+    html-head: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+---
+
+<div class="about-flex">
+
+<div class="about-text">
+<div class="social-buttons">
+  <a href="https://github.com/Wander29" class="btn-social" target="_blank">
+    {{< fa brands github size=2x >}}
+  </a>
+
+  <a href="https://www.linkedin.com/in/ludovico-venturi-00197a165" class="btn-social" target="_blank">
+    {{< fa brands linkedin size=2x >}}
+  </a>
+
+  <a href="mailto:ludo.venturi@gmail.com" class="btn-social" target="_blank">
+    {{< fa envelope size=2x >}}
+  </a>
+</div>
+  <h1>👋 Hi, welcome</h1>
+  <p>
+  In worldly life <br> 
+  I'm a Computer & Data Scientist <br> </p>
+
+  <p>... but honestly ...  <br>
+  I'm just another being  <br>
+  looking for meaning</p>
+</div>
+
+<div class="about-image">
+<div class="image-wrapper">
+  <img src="assets/img/pic.jpeg" alt="Profile image" class="profile-pic base">
+  <img src="assets/img/pic_lu.jpg" alt="Hover image" class="profile-pic hover">
+  <div class="hover-hint">👀 hover me</div>
+</div>
+</div>
+
+</div>
+<br>
+<!-- Resume Section -->
+
+<!-- 1. Education -->
+<div class="w3-container w3-card w3-white w3-margin-top profile-container ">
+<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>MSc in Data Science, Scientific Computing & AI</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2023 - Present</h6>
+<p>University of Florence</p>
+<hr>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>BSc in Computer Science</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2018 - Feb 2022</h6>
+<p>University of Pisa</p>
+<hr>
+</div>
+</div>
+<br>
+<!-- 2. Experience -->
+<div class="w3-container w3-card w3-white w3-margin-top profile-container ">
+<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Software Engineer / Molecular Discovery Ltd</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2022 - Present</h6>
+<p>Working with scientists (from chemists to biologists) to
+implement new features and maintain production versions of
+pharmaceutical centered softwares.
+<ul>
+<li> <b>C++</b>, Qt, Docker, CMake, ASciiDoc, Github Actions, Git, SQLite, Catch2</li>
+​<li>I was the maintainer of the software MetaSite</li>
+<li> I studied and refactored old code</li>
+<li> I added several new features (including chemical reactions)</li>
+<li> I was in team with chemists day by day</li>
+<li> I developed test, following TDD</li>
+<li> I converted many projects to CMake</li>
+<li> I implemented CI/CD pipeline (Github Actions)</li>
+<li> I wrote documentation (AsciiDoc)</li>
+</p>
+<hr>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Software Engineer Intern / NETADDICTION Srl </b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2018</h6>
+<p>I was working on an internal web system for inserting data.</p>
+<hr>
+</div>
+</div>
+<br>
+
+
+<div align="center">Built with [Quarto](https://quarto.org)</div>
+
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+
+
+
+---
+
+<style>
+.about-intro {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #444;
+  max-width: 60ch;
+  margin-bottom: 2rem;
+}
+</style>

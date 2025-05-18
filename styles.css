@@ -1,0 +1,181 @@
+/* css styles */
+.profile-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+.about-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.about-text {
+    flex: 1 1 60%;
+    font-size: 1.1rem;
+    max-width: 60ch;
+  }
+  
+.about-image {
+flex: 1 1 30%;
+text-align: center;
+}
+
+/* PROFILE IMAGE BLOCK */
+.about-image {
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: opacity 0.4s ease-in-out, transform 0.3s ease;
+}
+
+/* HOVER IMAGE LOGIC */
+.profile-pic.hover {
+  opacity: 0;
+  z-index: 2;
+}
+.image-wrapper:hover .profile-pic.hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+/* HOVER HINT */
+.hover-hint {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: #999;
+  opacity: 0.8;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.image-wrapper:hover .hover-hint {
+  opacity: 0;
+}
+
+body {
+    font-family: 'Book Antiqua', sans-serif;
+    font-size:em;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    background-color: #ecddb6;
+    color: #222;
+}
+  
+h1, h2, h3 {
+    font-weight: 600;
+    color: #111;
+}
+  
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+  
+.social-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f5f5f5;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.btn-social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.btn-social:hover {
+  background-color: #e9ecef;
+  color: #1a73e8;
+  border-color: #1a73e8;
+}
+
+/* Additional styles for the resume */
+.experience, .education {
+    margin: 2rem 0;
+    padding: 1rem;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job, .school {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid #2a7ae2;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.profile-container {
+    /* background-color: #fff; */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
