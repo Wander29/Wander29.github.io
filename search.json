@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nApr 11, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nApr 8, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ludovico Venturi",
+    "section": "",
+    "text": "👋 Hi, welcome\n\n\nIn worldly life  I’m a Computer & Data Scientist \n\n\n… but honestly …  I’m just another being  looking for meaning\n\n\n\n\n \n\n👀 hover me\n\n\n\n\n \n\n\n\nEducation\n\n\n\nMSc in Data Science, Scientific Computing & AI\n\n\nSep 2023 - Present\n\n\nUniversity of Florence\n\n\n\n\n\nBSc in Computer Science\n\n\nSep 2018 - Feb 2022\n\n\nUniversity of Pisa\n\n\n\n\n \n\n\nWork Experience\n\n\n\nSoftware Engineer / Molecular Discovery Ltd\n\n\nApr 2022 - Present\n\n\nWorking with scientists (from chemists to biologists) to implement new features and maintain production versions of pharmaceutical centered softwares.\n\n\nC++, Qt, Docker, CMake, ASciiDoc, Github Actions, Git, SQLite, Catch2\n\n​\n\nI was the maintainer of the software MetaSite\n\n\nI studied and refactored old code\n\n\nI added several new features (including chemical reactions)\n\n\nI was in team with chemists day by day\n\n\nI developed test, following TDD\n\n\nI converted many projects to CMake\n\n\nI implemented CI/CD pipeline (Github Actions)\n\n\nI wrote documentation (AsciiDoc)\n\n\n\n\n\n\nSoftware Engineer Intern / NETADDICTION Srl \n\n\nFeb 2018\n\n\nI was working on an internal web system for inserting data.\n\n\n\n\n\n\nBuilt with Quarto"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
